@@ -62,8 +62,8 @@ Idealizado por profissional com mais de uma década de experiência no setor aut
 |---|---|---|
 | 1 | Login exclusivo com credenciais da empresa | ✅ Implementado |
 | 2 | Dashboard geral (métricas consolidadas) | ✅ Implementado (estático) |
-| 3 | Cadastro de novas oficinas | ❌ Não iniciado |
-| 4 | Listagem e gestão de oficinas (ativar/desativar) | ❌ Não iniciado |
+| 3 | Cadastro de novas oficinas | ✅ Implementado |
+| 4 | Listagem e gestão de oficinas (ativar/desativar) | ✅ Implementado |
 | 5 | Visualização de dados por oficina | ❌ Não iniciado |
 | 6 | Configurações globais do app | ❌ Não iniciado |
 | 7 | Gestão de usuários administradores | ❌ Não iniciado |

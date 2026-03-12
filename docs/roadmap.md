@@ -21,11 +21,11 @@
 
 ---
 
-## 🔨 Fase 2 — CRUD Super Admin (Em Planejamento)
+## 🔨 Fase 2 — CRUD Super Admin (Em Andamento)
 
 - [ ] API: endpoints CRUD para oficinas (`/api/admin/oficinas`)
-- [ ] Tabela: listagem de oficinas com busca e filtros
-- [ ] Formulário: cadastro de nova oficina + criação de credenciais
+- [x] Tabela: listagem de oficinas com busca e filtros
+- [x] Formulário: cadastro de nova oficina + criação de credenciais
 - [ ] Ação: ativar/desativar oficina
 - [ ] Dashboard: métricas reais da plataforma (contagem de oficinas, OS, clientes)
 - [ ] Gestão de usuários admin (`/api/admin/users`)

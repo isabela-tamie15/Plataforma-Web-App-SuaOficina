@@ -84,21 +84,16 @@ export const AuthProvider = ({ children }) => {
   // Login
   const login = async (email, password) => {
     try {
-      console.log('Iniciando signInWithPassword...', email);
       const { data, error } = await supabase.auth.signInWithPassword({
         email,
         password,
       });
 
-      console.log('signInWithPassword retornou:', { data, error });
-
       if (error) {
         throw error;
       }
 
-      console.log('Buscando perfil para o usuário:', data.user.id);
       const userProfile = await fetchProfile(data.user.id);
-      console.log('Perfil retornado:', userProfile);
 
       if (!userProfile) {
         await supabase.auth.signOut();
@@ -108,7 +103,6 @@ export const AuthProvider = ({ children }) => {
       setProfile(userProfile);
       return { user: data.user, profile: userProfile, session: data.session };
     } catch (error) {
-      console.error('Erro na função login:', error);
       throw error;
     }
   };

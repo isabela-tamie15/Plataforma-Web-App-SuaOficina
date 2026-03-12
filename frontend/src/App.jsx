@@ -5,6 +5,8 @@ import ProtectedRoute from './components/ProtectedRoute';
 // Super Admin pages
 import SuperAdminLogin from './pages/super-admin/Login';
 import SuperAdminDashboard from './pages/super-admin/Dashboard';
+import OficinasList from './pages/super-admin/OficinasList';
+import OficinaCreate from './pages/super-admin/OficinaCreate';
 
 // Oficina pages
 import OficinaLogin from './pages/oficina/Login';
@@ -30,6 +32,8 @@ const SuperAdminLayout = () => {
         <main className="dashboard-content">
           <Routes>
             <Route path="dashboard" element={<SuperAdminDashboard />} />
+            <Route path="oficinas" element={<OficinasList />} />
+            <Route path="oficinas/nova" element={<OficinaCreate />} />
             {/* Futuras rotas aqui */}
           </Routes>
         </main>

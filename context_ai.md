@@ -38,13 +38,13 @@
 - Autenticação completa (login/logout/me) via Supabase Auth + JWT
 - RLS com funções `SECURITY DEFINER` (get_my_role, get_my_oficina_id)
 - Tabelas: `oficinas`, `profiles` com políticas RLS
-- Painel Super Admin: login + dashboard (estático, sem dados reais)
+- Painel Super Admin: login + dashboard (estático) + CRUD de oficinas e UX de formulário
 - Painel Oficina: login + dashboard (estático, sem dados reais)
 - Layouts: Sidebar, TopBar, ProtectedRoute por role
 - Design System: dark mode, Inter font, CSS variables, animações
 
 ### ❌ Não implementado
-- CRUD de oficinas, clientes, veículos, OS
+- CRUD de clientes, veículos, OS
 - Tabelas: clientes, veículos, ordens_servico, checklists, pecas_servicos, certificados_garantia
 - Versão cliente
 - Funcionalidades operacionais (agenda, histórico, lembretes)
